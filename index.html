@@ -1,17 +1,63 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
-    <title>Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTN SOLUTIONS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .slogan {
+            margin: 20px 0;
+            font-style: italic;
+        }
+    </style>
 </head>
-
 <body>
-    <h1 class="WelcomeMessage" id="WelcomeMessage">Welcome to my shop</h1>
-    <button id="Buton" onclick="getDate()">Get date</button>
-    <p hidden id="hiddenDateTime">hidden</p>
+    <div class="container">
+        <h1>BTN SOLUTIONS</h1>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:buteanrares@gmail.com">buteanrares@gmail.com</a></p>
+            <p>Phone: +40 770 798694</p>
+        </div>
+        <div class="slogan">
+            <p>"Innovative Solutions for Your Business"</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 BTN SOLUTIONS. All rights reserved.</p>
+    </div>
 </body>
-
 </html>
